@@ -44,9 +44,7 @@ I **design** the logic, the structure, and the way components talk to each other
 
 <br>
 
-## Contact and documents
-
-📄 [Download pre filled EzB form and resume](https://963labs.dev/EzB.B.Alali.pdf)
+## Contact
 
 📧 [b.alali@963labs.dev](mailto:b.alali@963labs.dev)
 
