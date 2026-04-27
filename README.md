@@ -1,57 +1,35 @@
 <div align="center">
 
-# Hello, I am Basel Alali
+# Error 404: Normal Human Not Found. Hello, I am 404Human
 
-### Tech Enthusiast & System Logic Designer
-
-</div>
-
-<br>
-
-## The mindset
-
-I am always learning. I like to look at technology from an architectural view. I care about **how systems connect** and **what kind of logic actually fixes a problem**. I use AI as a **pair programmer**: I shape the system design and the logic, and I lean on strong tools to turn that design into real code, often in **C**, **Go**, or **TypeScript**. I am a **logic builder** first, and a **coder** second. That keeps me clear, quick to adapt, and honest about how work gets done.
-
-<br>
-
-## Project highlight: 963causal
-
-**963causal** is a **private** project in my own time. I treat it as an **architectural idea** first, not a race to type the most lines. The point is a coherent story about **host integrity and continuity of behavior on Linux** at the system level. I work out the **core rules and data flows**, and I work with **AI to help build out the full stack** once the design direction is set. The energy goes into how the system should feel under stress, and how the pieces should stay true to the model we agreed on, not into pretending every keystroke is hand memorized from a textbook.
-
-<br>
-
-## What I work with (honestly)
-
-These are things I work with in practice, at the level of design and build, not a claim that I have memorized every flag on day one. They represent how I think, learn, and ship when the problem calls for it.
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-<img src="https://img.shields.io/badge/System%20Architecture-111111?style=for-the-badge" alt="System Architecture" />
-<img src="https://img.shields.io/badge/Prompt%20Engineering-4B0082?style=for-the-badge" alt="Prompt Engineering" />
-<img src="https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" alt="C" />
-<img src="https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-<img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
-<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+### System Thinker & Friendly Tech Explorer
 
 </div>
 
-<br>
+## How My Brain Works
 
-## The smart truth about AI in my workflow
+I love figuring out how things tick. For me, tech is all about drawing the big picture and solving a really good puzzle. I do not spend my days memorizing syntax or pretending to type at the speed of light. Instead, I focus on the architecture. How do things connect? What makes them break?
 
-I **design** the logic, the structure, and the way components talk to each other. I do **not** use AI to replace thinking. I use it to help **translate** a clear system picture into the right code paths, in the right language, with review and care. The value I want to bring is **clarity of problem framing**, and **responsible use of automation**, in one honest package.
+I proudly use AI as my pair programmer. I design the map, set the rules, and together we pave the roads in C, Go, or TypeScript. It is a fun, honest, and incredibly smart way to build cool systems without the unnecessary headaches. I am the logic guy, AI is the fast typer.
 
-<br>
+## What I Am Building: 963causal
 
-## Contact
+My favorite digital sandbox right now is a private project called 963causal. It is my playground for exploring Linux host integrity and system behavior. The goal is not to write a million lines of code just to show off. It is about creating a solid story of how components should act under pressure.
+
+I figure out the core logic and the data flows, and my AI buddy helps me build out the full stack. It is pure architectural fun, making sure the system survives when things get chaotic.
+
+## Tools I Actually Enjoy Using
+
+No fancy buzzwords here, just the domains I actively explore, learn, and build with:
+
+**Linux Architecture** • **Prompt Engineering** • **C** • **Go** • **Python** • **AWS**
+
+## Let Us Connect
+
+Always happy to chat about tech, logic, or share a good laugh.
+
+📱 [Snapchat](https://snapchat.com/t/O8DVrEi8) · 📷 [Instagram](https://www.instagram.com/096s?igsh=cWhkdHZsNTY0NTFq&utm_source=qr)
 
 📧 [b.alali@963labs.dev](mailto:b.alali@963labs.dev)
 
-<br>
-
-<div align="center">
-
-*System thinker, curious by default, and glad to be learning in public, one small honest step at a time.*
-
-</div>
+*Just a curious mind, learning in public, and enjoying the ride.*
