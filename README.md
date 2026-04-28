@@ -8,28 +8,30 @@
 
 ## How My Brain Works
 
-I love figuring out how things tick. For me, tech is all about drawing the big picture and solving a really good puzzle. I do not spend my days memorizing syntax or pretending to type at the speed of light. Instead, I focus on the architecture. How do things connect? What makes them break?
+Most folks online know me as 404Human, and I have never really been a standard by the book tech guy. My brain works a little differently. I am the kind of person who needs to take things apart to understand how they actually tick.
 
-I proudly use AI as my pair programmer. I design the map, set the rules, and together we pave the roads in C, Go, or TypeScript. It is a fun, honest, and incredibly smart way to build cool systems without the unnecessary headaches. I am the logic guy, AI is the fast typer.
+I do not spend my days memorizing syntax or pretending I type like a movie hacker. For me, it is about architecture and system behavior. I look at the big picture, map how pieces connect, and figure out what makes them fail.
+
+I use AI as my pair programmer all the time, and I do not hide it. I draw the blueprint, set the rules, and then we pave the roads together in C, Go, or TypeScript. I am the logic guy, and AI is the fast typer.
 
 ## What I Am Building: 963causal
 
-My favorite digital sandbox right now is a private project called 963causal. It is my playground for exploring Linux host integrity and system behavior. The goal is not to write a million lines of code just to show off. It is about creating a solid story of how components should act under pressure.
+Right now my favorite sandbox is a private project called 963causal. It is my playground for exploring Linux host integrity and studying how systems behave when things go sideways.
 
-I figure out the core logic and the data flows, and my AI buddy helps me build out the full stack. It is pure architectural fun, making sure the system survives when things get chaotic.
+I am not trying to write a million lines to impress anyone. I care about building a solid story for how components should react under pressure. I design the core logic and data flow, and my AI buddy helps flesh out the rest of the stack. It is pure fun for an architecture nerd and a serious exercise in surviving chaos.
 
 ## Tools I Actually Enjoy Using
 
-No fancy buzzwords here, just the domains I actively explore, learn, and build with:
+I am not big on fancy buzzwords. I stick to what I genuinely enjoy exploring and building with:
 
 **Linux Architecture** • **Prompt Engineering** • **C** • **Go** • **Python** • **AWS**
 
 ## Let Us Connect
 
-Always happy to chat about tech, logic, or share a good laugh.
+I am always down to talk tech, logic, or just share a good laugh.
 
 📱 [Snapchat](https://snapchat.com/t/O8DVrEi8) · 📷 [Instagram](https://www.instagram.com/096s?igsh=cWhkdHZsNTY0NTFq&utm_source=qr)
 
 📧 [b.alali@963labs.dev](mailto:b.alali@963labs.dev)
 
-*Just a curious mind, learning in public, and enjoying the ride.*
+*Just a curious guy learning in public and having a good time doing it.*
