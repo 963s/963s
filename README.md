@@ -1,34 +1,27 @@
 <div align="center">
 
-# Error 404 Normal Human Not Found
-
-### ~$ whoami
-
-system thinker reverse engineer and security explorer
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=30&pause=1400&color=EDEDED&center=true&vCenter=true&width=720&height=70&lines=~%24+whoami;system+thinker;reverse+engineer;smart+contract+auditor" alt="whoami" />
 
 </div>
 
 ---
 
-i was never the type to blindly follow tutorials or memorize syntax
+never really been the follow the tutorial type ngl
 
-i like understanding how systems actually behave how things connect together and where they start breaking
+I just read a system until it admits how it actually behaves the miscalculated bounds the broken invariants the logic that folds under its own math
 
-usually ill find something interesting disappear into it for hours reverse it map it out then end up building tooling around it
-
-for me the fun part is understanding the logic behind systems not pretending to be some movie hacker
+security isn't running some scanner it's mapping the execution flow isolating state changes and writing a poc that makes the whole thing undeniable
 
 ## currently
 
-- reversing antibot and fingerprinting systems  
-- building osint and recon tooling  
-- exploring low level linux behavior  
-- automating repetitive workflows  
+mostly auditing defi protocols + smart contracts on immunefi & sherlock writing deterministic pocs for high-impact logic bugs and reversing antibot + fingerprinting systems
 
-## stack
+also messing with low-level linux behavior and building osint / recon tooling on the side
 
-**linux** • **python** • **go** • **c** • **aws**
+## arsenal
 
----
+<div align="center">
 
-`Error 404 Human Not Found`
+<img src="https://skillicons.dev/icons?i=solidity,rust,c,go,python,bash,linux,docker,git,github&theme=dark" alt="stack" />
+
+</div>
