@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="404Human: rust, headless browsers, security, fiscal systems">
+  <title>404Human</title>
+  <style>
+  @keyframes fade { from { opacity: 0 } to { opacity: 1 } }
+  @keyframes rise { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+  @keyframes draw { from { stroke-dashoffset: 260 } to { stroke-dashoffset: 0 } }
+  @keyframes blink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
+  @keyframes scan { from { transform: translateY(0); opacity: 1 } to { transform: translateY(300px); opacity: 1 } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+    .mono { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    @keyframes type { from { transform: translateX(0); opacity: 1 } to { transform: translateX(366.4px); opacity: 1 } }
+    .type { animation: type 1.5s steps(32) 0.4s backwards; }
+  </style>
+  <defs>
+    <linearGradient id="fadeR" x1="0" x2="1">
+      <stop offset="0" stop-color="#0b0f14" stop-opacity="1"/>
+      <stop offset="0.4" stop-color="#0b0f14" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3fb950" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#3fb950" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#3fb950" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="0.5" y="0.5" width="1199" height="379" rx="14"/></clipPath>
+    <clipPath id="dump"><rect x="740" y="41" width="460" height="339"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="#0b0f14"/>
+
+    <g clip-path="url(#dump)">
+      <g class="mono" font-size="15" transform="translate(770 92)">
+      <text x="0" y="0" fill="#1a222c">00000000  34 35 3e 47 61 74 7f 4d</text>
+      <text x="0" y="24" fill="#1a222c">00000010  31 78 74 54 05 4c 40 41</text>
+      <text x="0" y="48" fill="#1a222c">00000020  4c 43 0c 42 5f 55 23 20</text>
+      <text x="0" y="72" fill="#1a222c">00000030  13 0a 0d 72 1f 6c 37 39</text>
+      <text x="0" y="96" fill="#1a222c">00000040  31 27 2a 67 68 69 2a 12</text>
+      <text x="0" y="120" fill="#1a222c">00000050  38 3b 31 44 07 01 07 58</text>
+      <text x="0" y="144" fill="#1a222c">00000060  00 04 05 1b 1e 5f f7 e0</text>
+      <text x="0" y="168" fill="#1a222c">00000070  19 1f e4 a6 b9 a0 a5 c2</text>
+      <text x="0" y="192" fill="#1a222c">00000080  a8 eb fd e2 f2 c5 92 9b</text>
+      <text x="0" y="216" fill="#1a222c">00000090  ad d6 d6 c5 cc dc 97 d2</text>
+      <text x="0" y="240" fill="#1a222c">000000a0  c5 db 94 df d1 b6 a6 a9</text>
+      </g>
+      <rect x="740" y="40" width="460" height="40" fill="url(#beam)" opacity="0" style="animation: scan 5s linear 4.2s infinite"/>
+    </g>
+    <rect x="700" y="40" width="500" height="340" fill="url(#fadeR)"/>
+
+    <rect x="0" y="0" width="1200" height="40" fill="#0f141b"/>
+    <line x1="0" y1="40.5" x2="1200" y2="40.5" stroke="#1e2631"/>
+    <circle cx="24" cy="20" r="6" fill="#1e2631"/>
+    <circle cx="44" cy="20" r="6" fill="#1e2631"/>
+    <circle cx="64" cy="20" r="6" fill="#1e2631"/>
+    <text class="mono" x="600" y="25" font-size="13" fill="#7d8a97" text-anchor="middle">963s — zsh</text>
+
+    <g class="mono" font-size="19">
+      <text x="56" y="92" fill="#e6edf3">$ curl -sI https://github.com/963s</text>
+      <rect class="type" x="78.9" y="72" width="366.4" height="28" fill="#0b0f14" opacity="0"/>
+
+      <g style="animation: fade .2s 2.1s backwards">
+        <text x="56" y="128" fill="#f85149">HTTP/2 404 Not Found</text>
+        <line x1="54" y1="122" x2="290" y2="122" stroke="#f85149" stroke-width="2" stroke-dasharray="260" style="animation: draw .45s 2.9s backwards"/>
+      </g>
+      <text x="56" y="164" fill="#3fb950" style="animation: fade .2s 3.5s backwards">HTTP/2 200 OK<tspan x="236" fill="#7d8a97">x-found: since 2024</tspan></text>
+    </g>
+
+    <g style="animation: rise .7s 3.9s backwards">
+      <text class="sans" x="52" y="262" font-size="76" font-weight="800" fill="#e6edf3" letter-spacing="-2">404Human<tspan dx="10" fill="#3fb950" style="animation: blink 1.1s steps(1) 4.6s infinite">▍</tspan></text>
+    </g>
+    <text class="mono" x="56" y="318" font-size="18" fill="#7d8a97" style="animation: fade .6s 4.5s backwards">rust  <tspan fill="#1e2631">/</tspan>  headless browsers  <tspan fill="#1e2631">/</tspan>  security  <tspan fill="#1e2631">/</tspan>  fiscal systems</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="14" fill="none" stroke="#1e2631"/>
+</svg>
