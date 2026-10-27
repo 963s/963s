@@ -1,17 +1,28 @@
-### 404Human
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img src="assets/hero-light.svg" alt="404Human: rust, headless browsers, security, fiscal systems" width="100%"></picture>
 
-rust, headless browsers and the security edges of both. by day i build an offline-first point-of-sale for precious-metal dealers in germany, with fiscal signing (TSE) and tax exports (DSFinV-K, DATEV) that have to be exact to the cent.
+<p>
+<a href="https://github.com/nornsPOS"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/norns-dark.svg"><img src="assets/norns-light.svg" alt="Norns: offline-first point-of-sale for precious-metal dealers" width="49%"></picture></a>
+<a href="https://github.com/h4ckf0r0day/obscura/pulls?q=is%3Apr+author%3A963s"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/obscura-dark.svg"><img src="assets/obscura-light.svg" alt="obscura: five merged pull requests and one ssrf finding" width="49%"></picture></a>
+</p>
 
-**merged upstream**
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg"><img src="assets/stack-light.svg" alt="stack: Rust, TypeScript, Tauri, PostgreSQL, V8 and CDP, MCP, Linux" ></picture></p>
 
-- [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura), the rust headless browser for ai agents
-  - [#806](https://github.com/h4ckf0r0day/obscura/pull/806) layout: fixed and absolute boxes resolve against the viewport
-  - [#805](https://github.com/h4ckf0r0day/obscura/pull/805) net: navigation follows 20 redirects, not 19
-  - [#804](https://github.com/h4ckf0r0day/obscura/pull/804) js: chrome-shaped blob urls
-  - [#803](https://github.com/h4ckf0r0day/obscura/pull/803) js: `new FormData(form)` reads the form
-  - [#120](https://github.com/h4ckf0r0day/obscura/pull/120) cdp: puppeteer connect no longer times out
-- [nornsPOS/norns-xrf-agent](https://github.com/nornsPOS/norns-xrf-agent/pull/1) reliable delivery of xrf analyser results
+<details>
+<summary><b>the receipts</b></summary>
 
-**found**
+<br>
 
-- [obscura #816](https://github.com/h4ckf0r0day/obscura/pull/816) ssrf through ipv6 addresses that carry an ipv4 inside (6to4, nat64), reaching cloud metadata endpoints. closed in favour of the fix that landed upstream.
+**obscura**, the rust headless browser for ai agents
+
+| | |
+|---|---|
+| [#806](https://github.com/h4ckf0r0day/obscura/pull/806) | fixed and absolute boxes resolve against the viewport |
+| [#805](https://github.com/h4ckf0r0day/obscura/pull/805) | navigation follows 20 redirects, not 19 |
+| [#804](https://github.com/h4ckf0r0day/obscura/pull/804) | chrome-shaped blob urls, throw on non-blob input |
+| [#803](https://github.com/h4ckf0r0day/obscura/pull/803) | `new FormData(form)` reads the form |
+| [#120](https://github.com/h4ckf0r0day/obscura/pull/120) | puppeteer connect no longer times out |
+| [#816](https://github.com/h4ckf0r0day/obscura/pull/816) | **found:** ssrf through ipv6 addresses carrying an ipv4 inside (6to4, nat64), reaching cloud metadata endpoints. closed in favour of the upstream fix |
+
+**norns-xrf-agent** · [#1](https://github.com/nornsPOS/norns-xrf-agent/pull/1) reliable delivery of xrf analyser results, windows startup
+
+</details>
