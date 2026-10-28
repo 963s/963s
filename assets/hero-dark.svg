@@ -119,23 +119,19 @@
     <circle cx="26" cy="22" r="6" fill="#f85149" opacity=".8"/>
     <circle cx="46" cy="22" r="6" fill="#e3b341" opacity=".8"/>
     <circle cx="66" cy="22" r="6" fill="#3fb950" opacity=".8"/>
-    <text class="mono" x="600" y="27" font-size="13" fill="#7f8c99" text-anchor="middle">963s — zsh — 120×44</text>
+    <text class="mono" x="600" y="27" font-size="13" fill="#7f8c99" text-anchor="middle">963s — zsh</text>
     <g class="mono" font-size="19">
       <text x="56" y="104" fill="#e8eef4">$ curl -sI https://github.com/963s</text>
       <rect x="78.9" y="84" width="366.4" height="28" fill="#0d1117" opacity="0" style="animation: type 1.5s steps(32) .4s backwards"/>
       <style>@keyframes type { from { transform: translateX(0); opacity: 1 } to { transform: translateX(366.4px); opacity: 1 } }</style>
-      <g style="animation: fade .2s 2.1s backwards">
-        <text x="56" y="140" fill="#f85149">HTTP/2 404 Not Found</text>
-        <line x1="54" y1="134" x2="290" y2="134" stroke="#f85149" stroke-width="2" stroke-dasharray="260" style="--len:260; animation: draw .45s 2.9s backwards"/>
-      </g>
-      <text x="56" y="176" fill="#3fb950" style="animation: fade .2s 3.5s backwards">HTTP/2 200 OK<tspan x="236" fill="#7f8c99">x-found: since 2024</tspan></text>
+      <text x="56" y="142" fill="#3fb950" style="animation: fade .25s 2.1s backwards">HTTP/2 200X Found</text>
     </g>
-    <g style="animation: rise .7s 3.9s backwards">
-      <text class="sans" x="52" y="282" font-size="80" font-weight="800" fill="#3fb950" opacity=".35" filter="url(#hero-blur)" letter-spacing="-2.5">404Human</text>
-      <text class="sans" x="52" y="282" font-size="80" font-weight="800" fill="url(#hero-ink)" letter-spacing="-2.5">404Human<tspan dx="10" fill="#3fb950" style="animation: blink 1.1s steps(1) 4.6s infinite">▍</tspan></text>
+    <g style="animation: rise .7s 2.5s backwards">
+      <text class="sans" x="52" y="252" font-size="80" font-weight="800" fill="#3fb950" opacity=".35" filter="url(#hero-blur)" letter-spacing="-2.5">404Human</text>
+      <text class="sans" x="52" y="252" font-size="80" font-weight="800" fill="url(#hero-ink)" letter-spacing="-2.5">404Human<tspan dx="10" fill="#3fb950" style="animation: blink 1.1s steps(1) 3.2s infinite">▍</tspan></text>
     </g>
-    <text class="mono" x="56" y="340" font-size="18" fill="#7f8c99" style="animation: fade .6s 4.5s backwards">rust <tspan fill="#1f2833">/</tspan> headless browsers <tspan fill="#1f2833">/</tspan> security <tspan fill="#1f2833">/</tspan> fiscal systems</text>
-    <text class="mono" x="56" y="392" font-size="13" fill="#7f8c99" opacity=".8" style="animation: fade .6s 5s backwards"><tspan fill="#3fb950">●</tspan> shipping  <tspan dx="18" fill="#ad2b50">●</tspan> fiscal  <tspan dx="18" fill="#58a6ff">●</tspan> agents</text>
+    <text class="mono" x="56" y="312" font-size="18" fill="#7f8c99" style="animation: fade .6s 3s backwards">rust <tspan fill="#1f2833">/</tspan> headless browsers <tspan fill="#1f2833">/</tspan> security <tspan fill="#1f2833">/</tspan> fiscal systems</text>
+    <text class="mono" x="56" y="372" font-size="13" fill="#7f8c99" opacity=".8" style="animation: fade .6s 3.4s backwards"><tspan fill="#3fb950">●</tspan> shipping  <tspan dx="18" fill="#ad2b50">●</tspan> fiscal  <tspan dx="18" fill="#58a6ff">●</tspan> agents</text>
     <rect width="1200" height="440" filter="url(#hero-grain)" opacity="1"/>
     
   </g>
