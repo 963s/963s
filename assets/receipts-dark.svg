@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="448" viewBox="0 0 1200 448" role="img" aria-label="upstream pull requests by 963s">
+  <title>the receipts</title>
+  <style>
+  @keyframes fade { from { opacity: 0 } to { opacity: 1 } }
+  @keyframes rise { from { opacity: 0; transform: translateY(10px) } to { opacity: 1; transform: none } }
+  @keyframes pop { from { opacity: 0; transform: scale(.6) } to { opacity: 1; transform: none } }
+  @keyframes draw { from { stroke-dashoffset: var(--len, 400) } to { stroke-dashoffset: 0 } }
+  @keyframes blink { 0%, 49% { opacity: 1 } 50%, 100% { opacity: 0 } }
+  @keyframes pulse { 0%, 100% { opacity: .35 } 50% { opacity: 1 } }
+  @media (prefers-reduced-motion: reduce) { *, *::before { animation: none !important } }
+    .mono { font-family: ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; }
+    .tab { font-variant-numeric: tabular-nums; }
+    @keyframes grow { from { transform: scaleX(0) } to { transform: none } }
+  </style>
+  <defs>
+    <filter id="receipts-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix values="0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0 0.5  0 0 0 0.07 0"/>
+    </filter>
+    <filter id="receipts-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="receipts-clip"><rect x=".5" y=".5" width="1199" height="447" rx="16"/></clipPath>
+    <pattern id="receipts-dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1f2833"/>
+    </pattern>
+  </defs>
+  <g clip-path="url(#receipts-clip)">
+    <rect width="1200" height="448" fill="#0d1117"/>
+    <rect width="1200" height="448" fill="url(#receipts-dots)" opacity=".55"/>
+    
+    <text class="mono" x="40" y="46" font-size="12" fill="#3fb950" letter-spacing="2.6">THE RECEIPTS</text>
+    <text class="mono" x="1160" y="46" font-size="12" fill="#7f8c99" text-anchor="end">git log --author=963s --upstream</text>
+    <line x1="40" y1="64.5" x2="1160" y2="64.5" stroke="#1f2833"/>
+    <path d="M64 74 V386" stroke="#3fb950" stroke-opacity=".5" stroke-width="2" stroke-dasharray="400" style="--len:400; animation: draw 1.2s ease-out .2s backwards"/>
+    <path d="M92 92 C92 118 64 112 64 132" fill="none" stroke="#58a6ff" stroke-opacity=".6" stroke-width="2" stroke-dasharray="60" style="--len:60; animation: draw .6s .5s backwards"/>
+    <g style="animation: rise .45s 0.35s backwards">
+      <circle cx="92" cy="92" r="6.5" fill="#0d1117" stroke="#58a6ff" stroke-width="2.2"/>
+      <circle cx="92" cy="92" r="2.6" fill="#58a6ff"/>
+      <text class="mono" x="128" y="97" font-size="13" fill="#7f8c99">2026-09-11</text>
+      <text class="mono" x="236" y="97" font-size="13" fill="#7f8c99">norns-xrf-agent</text>
+      <text class="mono" x="376" y="97" font-size="14" font-weight="700" fill="#58a6ff">#1</text>
+      <text class="sans" x="436" y="97" font-size="15" fill="#e8eef4">reliable delivery of xrf analyser results, windows startup</text>
+      <g transform="translate(948 87)">
+        <rect width="89.4" height="10" rx="3" fill="#3fb950" opacity=".85" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 0.6499999999999999s backwards; transform-origin: left; transform-box: fill-box"/>
+        <rect x="92.4" width="49.9" height="10" rx="3" fill="#f85149" opacity=".8" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 0.8s backwards; transform-origin: left; transform-box: fill-box"/>
+      </g>
+      <g transform="translate(1104 81)">
+        <rect width="68" height="22" rx="11" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-opacity=".5"/>
+        <text class="mono" x="34" y="15" font-size="10.5" fill="#3fb950" text-anchor="middle" letter-spacing="1">MERGED</text>
+      </g>
+    </g>
+    <g style="animation: rise .45s 0.47s backwards">
+      <circle cx="64" cy="138" r="6.5" fill="#0d1117" stroke="#f85149" stroke-width="2.2"/>
+      <path d="M61 135 l6 6 m0 -6 l-6 6" stroke="#f85149" stroke-width="1.8" stroke-linecap="round"/>
+      <text class="mono" x="128" y="143" font-size="13" fill="#7f8c99">2026-09-04</text>
+      <text class="mono" x="236" y="143" font-size="13" fill="#7f8c99">obscura</text>
+      <text class="mono" x="376" y="143" font-size="14" font-weight="700" fill="#f85149">#816</text>
+      <text class="sans" x="436" y="143" font-size="15" fill="#e8eef4">ssrf through ipv6 wrappers (6to4, nat64) reaching cloud metadata</text>
+      <g transform="translate(948 133)">
+        <rect width="64.3" height="10" rx="3" fill="#3fb950" opacity=".85" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 0.77s backwards; transform-origin: left; transform-box: fill-box"/>
+        <rect x="67.3" width="28.6" height="10" rx="3" fill="#f85149" opacity=".8" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 0.9199999999999999s backwards; transform-origin: left; transform-box: fill-box"/>
+      </g>
+      <g transform="translate(1104 127)">
+        <rect width="68" height="22" rx="11" fill="#f85149" fill-opacity=".12" stroke="#f85149" stroke-opacity=".5"/>
+        <text class="mono" x="34" y="15" font-size="10.5" fill="#f85149" text-anchor="middle" letter-spacing="1">FOUND</text>
+      </g>
+    </g>
+    <g style="animation: rise .45s 0.59s backwards">
+      <circle cx="64" cy="184" r="6.5" fill="#0d1117" stroke="#3fb950" stroke-width="2.2"/>
+      <circle cx="64" cy="184" r="2.6" fill="#3fb950"/>
+      <text class="mono" x="128" y="189" font-size="13" fill="#7f8c99">2026-09-04</text>
+      <text class="mono" x="236" y="189" font-size="13" fill="#7f8c99">obscura</text>
+      <text class="mono" x="376" y="189" font-size="14" font-weight="700" fill="#3fb950">#803</text>
+      <text class="sans" x="436" y="189" font-size="15" fill="#e8eef4">new FormData(form) reads the form, keys and values iterate</text>
+      <g transform="translate(948 179)">
+        <rect width="53.5" height="10" rx="3" fill="#3fb950" opacity=".85" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 0.8899999999999999s backwards; transform-origin: left; transform-box: fill-box"/>
+        <rect x="56.5" width="10.7" height="10" rx="3" fill="#f85149" opacity=".8" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 1.04s backwards; transform-origin: left; transform-box: fill-box"/>
+      </g>
+      <g transform="translate(1104 173)">
+        <rect width="68" height="22" rx="11" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-opacity=".5"/>
+        <text class="mono" x="34" y="15" font-size="10.5" fill="#3fb950" text-anchor="middle" letter-spacing="1">MERGED</text>
+      </g>
+    </g>
+    <g style="animation: rise .45s 0.71s backwards">
+      <circle cx="64" cy="230" r="6.5" fill="#0d1117" stroke="#3fb950" stroke-width="2.2"/>
+      <circle cx="64" cy="230" r="2.6" fill="#3fb950"/>
+      <text class="mono" x="128" y="235" font-size="13" fill="#7f8c99">2026-09-02</text>
+      <text class="mono" x="236" y="235" font-size="13" fill="#7f8c99">obscura</text>
+      <text class="mono" x="376" y="235" font-size="14" font-weight="700" fill="#3fb950">#806</text>
+      <text class="sans" x="436" y="235" font-size="15" fill="#e8eef4">fixed and absolute boxes resolve against the viewport</text>
+      <g transform="translate(948 225)">
+        <rect width="60.7" height="10" rx="3" fill="#3fb950" opacity=".85" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 1.01s backwards; transform-origin: left; transform-box: fill-box"/>
+        <rect x="63.7" width="10.7" height="10" rx="3" fill="#f85149" opacity=".8" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 1.16s backwards; transform-origin: left; transform-box: fill-box"/>
+      </g>
+      <g transform="translate(1104 219)">
+        <rect width="68" height="22" rx="11" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-opacity=".5"/>
+        <text class="mono" x="34" y="15" font-size="10.5" fill="#3fb950" text-anchor="middle" letter-spacing="1">MERGED</text>
+      </g>
+    </g>
+    <g style="animation: rise .45s 0.83s backwards">
+      <circle cx="64" cy="276" r="6.5" fill="#0d1117" stroke="#3fb950" stroke-width="2.2"/>
+      <circle cx="64" cy="276" r="2.6" fill="#3fb950"/>
+      <text class="mono" x="128" y="281" font-size="13" fill="#7f8c99">2026-09-02</text>
+      <text class="mono" x="236" y="281" font-size="13" fill="#7f8c99">obscura</text>
+      <text class="mono" x="376" y="281" font-size="14" font-weight="700" fill="#3fb950">#805</text>
+      <text class="sans" x="436" y="281" font-size="15" fill="#e8eef4">navigation follows 20 redirects, not 19</text>
+      <g transform="translate(948 271)">
+        <rect width="51.7" height="10" rx="3" fill="#3fb950" opacity=".85" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 1.13s backwards; transform-origin: left; transform-box: fill-box"/>
+        <rect x="54.7" width="13.4" height="10" rx="3" fill="#f85149" opacity=".8" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 1.28s backwards; transform-origin: left; transform-box: fill-box"/>
+      </g>
+      <g transform="translate(1104 265)">
+        <rect width="68" height="22" rx="11" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-opacity=".5"/>
+        <text class="mono" x="34" y="15" font-size="10.5" fill="#3fb950" text-anchor="middle" letter-spacing="1">MERGED</text>
+      </g>
+    </g>
+    <g style="animation: rise .45s 0.95s backwards">
+      <circle cx="64" cy="322" r="6.5" fill="#0d1117" stroke="#3fb950" stroke-width="2.2"/>
+      <circle cx="64" cy="322" r="2.6" fill="#3fb950"/>
+      <text class="mono" x="128" y="327" font-size="13" fill="#7f8c99">2026-09-02</text>
+      <text class="mono" x="236" y="327" font-size="13" fill="#7f8c99">obscura</text>
+      <text class="mono" x="376" y="327" font-size="14" font-weight="700" fill="#3fb950">#804</text>
+      <text class="sans" x="436" y="327" font-size="15" fill="#e8eef4">chrome-shaped blob urls, throw on non-blob input</text>
+      <g transform="translate(948 317)">
+        <rect width="46.8" height="10" rx="3" fill="#3fb950" opacity=".85" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 1.25s backwards; transform-origin: left; transform-box: fill-box"/>
+        <rect x="49.8" width="15.4" height="10" rx="3" fill="#f85149" opacity=".8" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 1.4s backwards; transform-origin: left; transform-box: fill-box"/>
+      </g>
+      <g transform="translate(1104 311)">
+        <rect width="68" height="22" rx="11" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-opacity=".5"/>
+        <text class="mono" x="34" y="15" font-size="10.5" fill="#3fb950" text-anchor="middle" letter-spacing="1">MERGED</text>
+      </g>
+    </g>
+    <g style="animation: rise .45s 1.0699999999999998s backwards">
+      <circle cx="64" cy="368" r="6.5" fill="#0d1117" stroke="#3fb950" stroke-width="2.2"/>
+      <circle cx="64" cy="368" r="2.6" fill="#3fb950"/>
+      <text class="mono" x="128" y="373" font-size="13" fill="#7f8c99">2026-05-09</text>
+      <text class="mono" x="236" y="373" font-size="13" fill="#7f8c99">obscura</text>
+      <text class="mono" x="376" y="373" font-size="14" font-weight="700" fill="#3fb950">#120</text>
+      <text class="sans" x="436" y="373" font-size="15" fill="#e8eef4">puppeteer connect no longer times out</text>
+      <g transform="translate(948 363)">
+        <rect width="36.0" height="10" rx="3" fill="#3fb950" opacity=".85" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 1.3699999999999999s backwards; transform-origin: left; transform-box: fill-box"/>
+        <rect x="39.0" width="0.0" height="10" rx="3" fill="#f85149" opacity=".8" style="animation: grow .7s cubic-bezier(.2,.8,.2,1) 1.5199999999999998s backwards; transform-origin: left; transform-box: fill-box"/>
+      </g>
+      <g transform="translate(1104 357)">
+        <rect width="68" height="22" rx="11" fill="#3fb950" fill-opacity=".12" stroke="#3fb950" stroke-opacity=".5"/>
+        <text class="mono" x="34" y="15" font-size="10.5" fill="#3fb950" text-anchor="middle" letter-spacing="1">MERGED</text>
+      </g>
+    </g>
+    <text class="mono" x="948" y="432" font-size="11" fill="#7f8c99">lines added <tspan fill="#3fb950">■</tspan> removed <tspan fill="#f85149">■</tspan>, log scale</text>
+    <rect width="1200" height="448" filter="url(#receipts-grain)" opacity="1"/>
+    
+  </g>
+  <rect x=".5" y=".5" width="1199" height="447" rx="16" fill="none" stroke="#1f2833"/>
+</svg>
